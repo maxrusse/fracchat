@@ -36,4 +36,4 @@ FOLDER_PATH = "AO"
 ```
 3. Execute the script to initiate the index and unveil the interface.
 
-> Remember to provide a link to the full publication once it's available so interested parties can delve deeper into your research.
+> (Link to full publication coming soon) 
