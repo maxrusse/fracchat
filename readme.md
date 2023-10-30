@@ -17,9 +17,9 @@ Radiologists adeptly describe fracture morphology. However, translating these in
 ## How It Works
 
 The script utilizes various AI models to generate AO codes from radiology reports:
-- **FracChat (using GPT4)**: Interrogates an index created from AO guidelines and retrieves the response using GPT-4.
+- **FracChat (using GPT4)**: Uses GPT-4 to query the AO guidelines index.
 - **FracChat (using GPT 3.5-Turbo)**: Uses GPT-3.5-Turbo to query the AO guidelines index.
-- **GPT-3.5-Turbo**: Generates a response based on the GPT-3.5-Turbo model without context.
+- **GPT-3.5-Turbo**: Provides a response using the standalone GPT-3.5-Turbo model.
 - **GPT-4**: Provides a response using the standalone GPT-4 model.
 
 All model responses are aggregated and showcased in the interface.
@@ -36,4 +36,4 @@ FOLDER_PATH = "AO"
 ```
 3. Execute the script to initiate the index and unveil the interface.
 
-> (Link to full publication coming soon) 
+> Link to full publication: [Performance of ChatGPT, human radiologists, and context-aware ChatGPT in identifying AO codes from radiology reports](https://www.nature.com/articles/s41598-023-41512-8) 
